@@ -11,7 +11,7 @@ const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 
 //IOS等用户直接用NobyDa的jd cookie
 let cookiesArr = [], cookie = '', message;
-shopid=""  // ##你要商品ID 茅台
+shopid="10033529531686"  // ##你要商品ID 茅台
 shopid1=""  //##你要商品ID 冰箱
 
 if (process.env.shopid) {
